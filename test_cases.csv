@@ -1,0 +1,8 @@
+Test_ID,Test_Name,Description,URL,Expected_Result,Framework,Status
+TC001,Homepage Load Test,Verify homepage loads successfully,https://www.google.com,Page loads without errors,Selenium+TestNG,Pass
+TC002,Login Button Test,Verify login button is visible on page,https://www.google.com,Login button is displayed,Selenium+TestNG,Pass
+TC003,Page Title Test,Verify correct page title is displayed,https://www.google.com,Title equals Google,Selenium+TestNG,Pass
+TC004,Browser Launch Test,Verify ChromeDriver launches without errors,https://www.google.com,Browser opens successfully,Selenium+ChromeDriver,Pass
+TC005,Browser Close Test,Verify browser closes cleanly after test,https://www.google.com,driver.quit() runs successfully,Selenium+ChromeDriver,Pass
+TC006,Element Load Test,Verify page elements load within timeout,https://www.google.com,Elements visible within 10 seconds,Selenium+TestNG,Pass
+TC007,Search Box Visibility,Verify search box is present on homepage,https://www.google.com,Search box is displayed and enabled,Selenium+TestNG,Pass
