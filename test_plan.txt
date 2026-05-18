@@ -1,0 +1,45 @@
+UI TESTING PLAN - Java Selenium Project
+========================================
+
+PROJECT: UI Testing for Web Application
+LANGUAGE: Java
+FRAMEWORK: Selenium WebDriver + TestNG
+
+TEST CASES:
+-----------
+
+1. TEST: Homepage Load
+   - Description: Verify homepage loads successfully
+   - Expected Result: Page loads without errors
+   - Status: Pass
+
+2. TEST: Login Button Visibility
+   - Description: Verify login button is visible on homepage
+   - Expected Result: Login button is displayed
+   - Status: Pass
+
+3. TEST: Page Title Verification
+   - Description: Verify correct page title loads
+   - URL: https://www.google.com
+   - Expected Result: Title equals "Google"
+   - Status: Pass
+
+4. TEST: Browser Launch
+   - Description: Verify ChromeDriver launches successfully
+   - Expected Result: Browser opens without errors
+   - Status: Pass
+
+5. TEST: Browser Close
+   - Description: Verify browser closes cleanly after test
+   - Expected Result: driver.quit() executes successfully
+   - Status: Pass
+
+TOOLS USED:
+-----------
+- Selenium WebDriver
+- TestNG
+- ChromeDriver
+- Java JDK
+
+TESTER: Preethi Deshpande
+ROLE: Senior QA Automation Lead
